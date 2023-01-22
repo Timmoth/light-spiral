@@ -22,8 +22,8 @@ void main(void) {
 
         // Light position
         float lightAngle = 4. * TWO_PI * i / u_lightCount;
-        float x = cos(lightAngle) * 5. * i;
-        float y = sin(lightAngle) * 5. * i;
+        float x = cos(lightAngle) * 2. * i;
+        float y = sin(lightAngle) * 2. * i;
         vec2 lighPosition = vec2(x, y) * u_radius;
 
         // Light colour
